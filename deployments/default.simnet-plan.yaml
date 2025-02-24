@@ -50,6 +50,11 @@ plan:
     - id: 0
       transactions:
         - emulated-contract-publish:
+            contract-name: civilizational-development-pathway
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/civilizational-development-pathway.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: universal-fitness-function
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/universal-fitness-function.clar
